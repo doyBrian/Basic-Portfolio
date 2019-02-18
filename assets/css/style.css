@@ -87,15 +87,10 @@ li a {
   padding-right: 14px;
 }
 
-li a:hover:not(.active) {
+li a:hover {
   font-size: 150%;
   color: #4aaaa5;
   text-decoration: underline;
-}
-
-.active {
-  font-size: 150%;
-  color: orange;
 }
 
 #header1-setting {

@@ -103,17 +103,12 @@ li a {
     padding-right: 14px;
 }
   
-li a:hover:not(.active) {
+li a:hover {
     font-size: 150%;
     color: #4aaaa5;
     text-decoration: underline;
 }
   
-.active {
-    font-size: 150%;
-    color: orange;
-}
-
 .container {
     width: 100%;
     height: 675px;
@@ -125,7 +120,7 @@ li a:hover:not(.active) {
 .content-settings {
     display: flex;
     flex-direction: column;
-    height: 500px;
+    height: 550px;
     margin: auto;
     background-color: white;
 }
@@ -176,7 +171,7 @@ input[type=submit]:hover {
 
 #textbox-size {
     width: 910px;
-    height: 100px;
+    height: 160px;
     display: block;
     border: 1px solid #ccc;
     border-radius: 4px;
