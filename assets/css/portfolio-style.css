@@ -50,15 +50,16 @@ border-spacing: 0;
     position: relative;
 }
 
-.nav-bar, .content-settings {
+.nav-bar, .box-settings {
+    display: grid;
+    grid-auto-rows: minmax(80px, auto);
+    margin: auto;
     width: 960px;
+    grid-gap: 1em;
 }
   
-
 .nav-bar {
-    display: grid;
     grid-template-columns: 1fr 3fr;
-    margin: auto;
 }
 
 #header-setting1 {
@@ -116,21 +117,19 @@ li a:hover:not(.active) {
 
 .container {
     width: 100%;
-    height: 675px;
+    height: 850px;
     background: whitesmoke;
     border-top: 1.5px outset lightgray;
     padding-top: 38px;
 }
 
-.content-settings {
-    display: flex;
-    flex-direction: column;
-    height: 500px;
-    margin: auto;
+.box-settings {
+    grid-template-columns: 25% 25%;
     background-color: white;
 }
 
 #header2-setting {
+    grid-column: 1/5;
     margin: 25px 25px 0px 25px;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -139,50 +138,64 @@ li a:hover:not(.active) {
     border-bottom: 1.5px inset lightgray;
 }
 
-#input-settings {
-    margin-top: 20px;
+img {
+    width: 208px;
+    height: 176px;
+    margin: 10px 0 10px 25px;
+}
+
+.pin-img1 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+.pin-img2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+
+}
+
+.pin-img3 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+.pin-img4 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+.pin-img5 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+}
+
+.img-holder {
+    position: relative;
+    overflow: hidden;
+}
+  
+.text-block {
+    position: absolute;
+    width: 208px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
     margin-left: 25px;
-    font-size: 16px;
-    font-weight: 1;
-    line-height: 2;
-    color: #9b9b9b;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-input[type=text] {
-    width: 910px;
-    padding: 12px 20px;
-    display: block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-bottom: 15px;
-}
-  
-input[type=submit] {
-    width: 100px;
+    bottom: 20px;
     background-color: #4aaaa5;
-    color: white;
-    padding: 14px 20px;
-    margin-top: 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-  
-input[type=submit]:hover {
-    background-color: #45a049;
+    text-align: center;
+    font-size: 20px;
+    padding: 8px 0 8px 0;
 }
 
-#textbox-size {
-    width: 910px;
-    height: 100px;
-    display: block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+.text-block > a {
+    text-decoration: none;
+    color: white;
 }
-  
+
+.text-block a:hover:not(.active) {
+    font-size: 125%;
+}
+
 footer {
     position: absolute;
     bottom: 0;
