@@ -192,9 +192,15 @@ img {
     color: white;
 }
 
-.text-block a:hover:not(.active) {
+.text-block a:hover {
     font-size: 125%;
 }
+
+.text-block a:active {
+    font-size: 125%;
+    color: orange;
+  }
+  
 
 footer {
     position: absolute;
