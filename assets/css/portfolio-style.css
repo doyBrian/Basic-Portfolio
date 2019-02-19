@@ -110,6 +110,11 @@ li a:hover {
     text-decoration: underline;
 }
 
+li a:active {
+    font-size: 150%;
+    color: orange;
+}
+  
 .container {
     width: 100%;
     height: 850px;

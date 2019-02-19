@@ -93,6 +93,12 @@ li a:hover {
   text-decoration: underline;
 }
 
+li a:active {
+  font-size: 150%;
+  color: orange;
+}
+
+
 #header1-setting {
   position: absolute;
   bottom: 0;
