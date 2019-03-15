@@ -5,6 +5,9 @@ Homework # 1 - creating a personal web site using what we learned so far using H
 
 In this assignment, you'll build a professional portfolio site using HTML/CSS. These instructions include a short style guide; follow it to design an aesthetically pleasing layout while creating different kinds of complex HTML elements.
 
+## Deployed Link
+https://doybrian.github.io/Basic-Portfolio/
+
 ### Before You Begin
 
 * Welcome to your first opportunity as a front-end web designer. You will be advocating for your most important client—yourself! By making a portfolio, you'll take your first step toward building your web development brand.
