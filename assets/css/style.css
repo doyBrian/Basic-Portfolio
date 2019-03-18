@@ -136,11 +136,11 @@ p {
 
 .content-settings {
   position: absolute;
-  height: 550px;
   margin: auto;
   left: 20px;
   right: 20px;
   background-color: white;
+  height: 550px;
 }
 
 #header2-setting {
