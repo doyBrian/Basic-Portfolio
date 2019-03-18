@@ -175,6 +175,11 @@ img {
     grid-row: 4/5;
 }
 
+.pin-img7 {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
 .img-holder {
     position: relative;
     overflow: hidden;
