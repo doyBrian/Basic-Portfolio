@@ -180,6 +180,11 @@ img {
     grid-row: 2/3;
 }
 
+.pin-img8 {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
 .img-holder {
     position: relative;
     overflow: hidden;
