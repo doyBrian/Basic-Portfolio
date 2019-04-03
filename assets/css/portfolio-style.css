@@ -185,6 +185,11 @@ img {
     grid-row: 3/4;
 }
 
+.pin-img9 {
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
 .img-holder {
     position: relative;
     overflow: hidden;
