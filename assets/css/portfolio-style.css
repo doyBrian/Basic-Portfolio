@@ -139,14 +139,15 @@ li a:active {
 }
 
 img {
-    width: 208px;
-    height: 176px;
-    margin: 10px 0 10px 25px;
+    width: 175px;
+    height: 150px;
+    margin-left: 15px;
 }
 
 .pin-img1 {
     grid-column: 1/2;
     grid-row: 2/3;
+    margin-left: 10px;
 }
 
 .pin-img2 {
@@ -158,6 +159,7 @@ img {
 .pin-img3 {
     grid-column: 1/2;
     grid-row: 3/4;
+    margin-left: 10px;
 }
 
 .pin-img4 {
@@ -168,11 +170,14 @@ img {
 .pin-img5 {
     grid-column: 1/2;
     grid-row: 4/5;
+    margin-left: 10px;
+    margin-bottom: 15px;
 }
 
 .pin-img6 {
     grid-column: 2/3;
     grid-row: 4/5;
+    margin-bottom: 15px;
 }
 
 .pin-img7 {
@@ -188,6 +193,12 @@ img {
 .pin-img9 {
     grid-column: 3/4;
     grid-row: 4/5;
+    margin-bottom: 15px;
+}
+
+.pin-img10 {
+    grid-column: 4/5;
+    grid-row: 2/3;
 }
 
 .img-holder {
@@ -197,9 +208,9 @@ img {
   
 .text-block {
     position: absolute;
-    width: 208px;
+    width: 175px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    margin-left: 25px;
+    margin-left: 15px;
     bottom: 20px;
     background-color: #4aaaa5;
     text-align: center;
