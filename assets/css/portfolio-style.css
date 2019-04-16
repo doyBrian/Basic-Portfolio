@@ -201,6 +201,11 @@ img {
     grid-row: 2/3;
 }
 
+.pin-img11 {
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
 .img-holder {
     position: relative;
     overflow: hidden;
