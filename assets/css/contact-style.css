@@ -139,48 +139,14 @@ li a:active {
     border-bottom: 1.5px inset lightgray;
 }
 
+i {
+    color: #4aaaa5;
+    display: block;
+    margin-right: 55px;
+}
+
 #input-settings {
-    margin-top: 20px;
-    margin-left: 25px;
-    font-size: 16px;
-    font-weight: 1;
-    line-height: 2;
-    color: #9b9b9b;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-}
-
-input[type=text] {
-    width: 910px;
-    padding: 12px 20px;
-    display: block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
-    margin-bottom: 15px;
-}
-  
-input[type=submit] {
-    width: 100px;
-    background-color: #4aaaa5;
-    color: white;
-    padding: 14px 20px;
-    margin-top: 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-  
-input[type=submit]:hover {
-    background-color: #45a049;
-}
-
-#textbox-size {
-    width: 910px;
-    height: 160px;
-    display: block;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    box-sizing: border-box;
+    margin: auto auto;
 }
   
 footer {
