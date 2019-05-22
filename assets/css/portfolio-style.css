@@ -117,14 +117,13 @@ li a:active {
   
 .container {
     width: 100%;
-    height: 850px;
+    height: 1200px;
     background: whitesmoke;
     border-top: 1.5px outset lightgray;
     padding-top: 38px;
 }
 
 .box-settings {
-    grid-template-columns: 25% 25%;
     background-color: white;
 }
 
@@ -138,83 +137,18 @@ li a:active {
     border-bottom: 1.5px inset lightgray;
 }
 
+.img-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
 img {
-    width: 175px;
-    height: 150px;
-    margin-left: 15px;
-}
-
-.pin-img1 {
-    grid-column: 1/2;
-    grid-row: 2/3;
-    margin-left: 10px;
-}
-
-.pin-img2 {
-    grid-column: 2/3;
-    grid-row: 2/3;
-
-}
-
-.pin-img3 {
-    grid-column: 1/2;
-    grid-row: 3/4;
-    margin-left: 10px;
-}
-
-.pin-img4 {
-    grid-column: 2/3;
-    grid-row: 3/4;
-}
-
-.pin-img5 {
-    grid-column: 1/2;
-    grid-row: 4/5;
-    margin-left: 10px;
+    width: 200px;
+    height: 175px;
     margin-bottom: 15px;
-}
-
-.pin-img6 {
-    grid-column: 2/3;
-    grid-row: 4/5;
-    margin-bottom: 15px;
-}
-
-.pin-img7 {
-    grid-column: 3/4;
-    grid-row: 2/3;
-}
-
-.pin-img8 {
-    grid-column: 3/4;
-    grid-row: 3/4;
-}
-
-.pin-img9 {
-    grid-column: 3/4;
-    grid-row: 4/5;
-    margin-bottom: 15px;
-}
-
-.pin-img10 {
-    grid-column: 4/5;
-    grid-row: 2/3;
-}
-
-.pin-img11 {
-    grid-column: 4/5;
-    grid-row: 3/4;
-}
-
-.pin-img12 {
-    grid-column: 4/5;
-    grid-row: 4/5;
-}
-
-.pin-img13 {
-    grid-column: 1/2;
-    grid-row: 5/6;
-    margin-left: 10px;
+    margin-left: 29px;
 }
 
 .img-holder {
@@ -224,14 +158,15 @@ img {
   
 .text-block {
     position: absolute;
-    width: 175px;
+    width: 200px;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    margin-left: 15px;
     bottom: 20px;
     background-color: #4aaaa5;
     text-align: center;
     font-size: 20px;
     padding: 8px 0 8px 0;
+    margin-left: 29px;
+    margin-bottom: 10px;
 }
 
 .text-block > a {

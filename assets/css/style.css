@@ -127,7 +127,7 @@ p {
 
 .container {
   width: 100%;
-  height: 640px;
+  height: 1000px;
   position: relative;
   background: whitesmoke;
   border-top: 1.5px outset lightgray;
@@ -140,7 +140,7 @@ p {
   left: 20px;
   right: 20px;
   background-color: white;
-  height: 550px;
+  height: 850px;
 }
 
 #header2-setting {
@@ -159,8 +159,8 @@ p {
 
 #img-setting {
   margin-left: 25px;
-  width: 185px;
-  height: 125px;
+  width: 360px;
+  height: 585px;
   float: left;
   margin-right: 25px;
 }
